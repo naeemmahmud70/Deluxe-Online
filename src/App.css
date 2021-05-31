@@ -8,6 +8,22 @@
 
 }
 
+.banner-background{
+  background-image: url(../../DailyCart/src/online.jpg);
+  background-size: cover;
+    border-radius: 7px;
+    height: 500px;
+}
+.text-black{
+  color: black;
+
+}
+#contact{
+  background-image: url(../../DailyCart/src/bg1.jpg);
+  background-size: cover;
+    border-radius: 7px;
+    margin-top: 10px;
+}
 .ui.cards > .card > .image {
   height: 250px;
   padding: 20px;

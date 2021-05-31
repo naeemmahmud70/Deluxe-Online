@@ -8,7 +8,7 @@ const ProductComponent = () => {
     const { id, title, image, price, category } = product;
     return (
       // four wide column
-      <div className="flex-div" key={id}>
+      <div className="flex-div" id="products" key={id}>
         <Link to={`/product/${id}`}>
           <div className="ui link cards">
             <div className="card">

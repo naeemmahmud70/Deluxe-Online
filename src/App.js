@@ -4,6 +4,7 @@ import ProductListing from "./containers/ProductListing";
 import Header from "./containers/Header";
 import "./App.css";
 import ProductDetails from "./containers/ProductDetails";
+import Footer from "./containers/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/product/:productId" component={ProductDetails} />
           <Route>404 Not Found!</Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
