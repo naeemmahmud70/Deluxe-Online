@@ -3,11 +3,6 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    // <div className="ui fixed menu">
-    //   <div className="ui container center">
-    //     <h2>DeluxeOnline</h2>
-    //   </div>
-    // </div>
     <div className="banner-background">
 
       <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
@@ -23,7 +18,7 @@ const Header = () => {
                 <Link class=" text-black" to="/home">Home</Link>
               </li>
               <li class="nav-item mr-5 fw-bold ">
-                <Link class=" text-black" to="/">About</Link>
+              <a class="text-black" href="#">About</a>
               </li>
               <li class="nav-item mr-5 fw-bold ">
               <a class="text-black" href="#products">Products</a>
